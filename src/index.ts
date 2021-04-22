@@ -16,6 +16,10 @@ import type {
   PowerState,
 } from './internal/types';
 
+export const testMethodThatDoesntExist = () => {
+
+}
+
 export const getUniqueId = () =>
   getSupportedPlatformInfoSync({
     defaultValue: 'unknown',
